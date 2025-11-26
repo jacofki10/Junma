@@ -36,6 +36,6 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # The folder on A2 where your site lives (usually public_html)
-          server-dir: ./
+          server-dir: ./studiosmundo.com/Junma/
           # The folder Vue creates (do not change this)
           local-dir: ./.output/public/ # <--- Nuxt 3 puts static files here
