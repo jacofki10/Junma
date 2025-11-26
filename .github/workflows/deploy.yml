@@ -34,7 +34,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           # The folder on A2 where your site lives (usually public_html)
-          server-dir: ./public_html/
+          server-dir: ./studiosmundo.com/Junma
           # The folder Vue creates (do not change this)
           local-dir: ./dist/
           # dangerously-force-upload: true # Uncomment if you have sync issues
