@@ -1,0 +1,40 @@
+name: Deploy to A2 Hosting
+
+on:
+  push:
+    branches:
+      - main # Or 'master', depending on your branch name
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Get the latest code
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
+
+      # 2. Install Node.js
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      # 3. Install dependencies and Build
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
+
+      # 4. Upload to A2 Hosting (FTP)
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # The folder on A2 where your site lives (usually public_html)
+          server-dir: ./public_html/
+          # The folder Vue creates (do not change this)
+          local-dir: ./dist/
+          # dangerously-force-upload: true # Uncomment if you have sync issues
