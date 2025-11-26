@@ -1,0 +1,104 @@
+{
+    "brand": {
+        "first": "Ningbo Junma",
+        "second": "New Material Technology Co., Ltd"
+    },
+    "nav": {
+        "products": "Products",
+        "quality": "Quality Control",
+        "history": "History",
+        "contact": "Contact Sales"
+    },
+    "hero": {
+        "badge": "IATF 16949 Certified",
+        "title": "Precision Engineering for",
+        "highlight": "Global Automotive",
+        "subtitle": "OEM supplier for shock absorbers and suspension components. Trusted by industry leaders like Tenneco and Hitachi.",
+        "cta_catalog": "View Catalog"
+    },
+    "products": {
+        "badge": "Manufacturing Capabilities",
+        "title": "Engineered Suspension Systems",
+        "subtitle": "High-performance components manufactured to strict OEM tolerances.",
+        "btn_download": "Download Full Catalog (PDF)"
+    },
+    "quality": {
+        "badge": "Quality Control",
+        "title": "Zero Defect Policy",
+        "desc": "Our manufacturing process adheres to the strictest automotive standards.",
+        "cert_text": "We are fully certified for automotive production. Our quality management system ensures continuous improvement.",
+        "lab": "In-House Laboratory",
+        "precision": "Precision Machining",
+        "view_cert": "View IATF Certificate"
+    },
+    "history": {
+        "title": "Our Legacy",
+        "subtitle": "From humble beginnings to a global OEM partner.",
+        "steps": [
+            {
+                "year": "2024",
+                "title": "Passed Marelli Audit",
+                "desc": "Began supplying components to major European automotive manufacturers."
+            },
+            {
+                "year": "2023",
+                "title": "Passed Hitachi Astemo Audit",
+                "desc": "Began supplying components to major Japanese automotive manufacturers."
+            },
+            {
+                "year": "2017",
+                "title": "Passed BWI Audit",
+                "desc": "Began supplying components to major European automotive manufacturers."
+            },
+            {
+                "year": "2016",
+                "title": "Relocated to New Plant",
+                "desc": "Expanded facility to 18,000 sqm with state-of-the-art manufacturing technology."
+            },
+            {
+                "year": "2016",
+                "title": "Obtained IATF 16949 Certificate",
+                "desc": "Implemented a quality management system compliant with international standards."
+            },
+            {
+                "year": "2012",
+                "title": "Passed KYB Audit",
+                "desc": "Began supplying components to major Japanese automotive manufacturers."
+            },
+            {
+                "year": "2007",
+                "title": "Passed Tenneco Audit",
+                "desc": "Signed long-term supply agreement for next-gen adaptive suspension systems."
+            },
+            {
+                "year": "1994",
+                "title": "Company Founded",
+                "desc": "Started as a specialized component manufacturer in Zhejiang Province."
+            }
+        ]
+    },
+    "contact": {
+        "label": "Get in Touch",
+        "title": "Ready to discuss your OEM requirements?",
+        "desc": "Our engineering team is ready to assist with technical specifications, prototyping, and mass production schedules.",
+        "sales": "Sales Department",
+        "response": "Response within 24 hours",
+        "factory": "Factory Address",
+        "address_text": "Ningbo, Zhejiang, China",
+        "form_title": "Request a Quote",
+        "security": "Your data is secure. We adhere to strict NDA protocols.",
+        "form": {
+            "name": "Full Name",
+            "company": "Company Name",
+            "email": "Work Email",
+            "message": "Project Details / Specs",
+            "submit": "Send Inquiry"
+        }
+    },
+    "footer": {
+        "desc": "Leading manufacturer of automotive suspension systems. Dedicated to quality, precision, and global standards since 1994.",
+        "links": "Quick Links",
+        "contact": "Contact Us",
+        "rights": "All rights reserved."
+    }
+}

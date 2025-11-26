@@ -1,0 +1,104 @@
+{
+    "brand": {
+        "first": "Ningbo Junma",
+        "second": "New Material Technology Co., Ltd"
+    },
+    "nav": {
+        "products": "Productos",
+        "quality": "Calidad",
+        "history": "Historia",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "badge": "Certificado IATF 16949",
+        "title": "Ingeniería de Precisión para",
+        "highlight": "Automotriz Global",
+        "subtitle": "Proveedor OEM de amortiguadores y componentes de suspensión. Con la confianza de líderes como Tenneco y Hitachi.",
+        "cta_catalog": "Ver Catálogo"
+    },
+    "products": {
+        "badge": "Capacidades de Fabricación",
+        "title": "Sistemas de Suspensión",
+        "subtitle": "Componentes de alto rendimiento fabricados con estrictas tolerancias OEM.",
+        "btn_download": "Descargar Catálogo (PDF)"
+    },
+    "quality": {
+        "badge": "Control de Calidad",
+        "title": "Política de Cero Defectos",
+        "desc": "Nuestro proceso de fabricación cumple con los estándares automotrices más estrictos.",
+        "cert_text": "Estamos totalmente certificados para la producción automotriz. Nuestro sistema asegura la mejora continua.",
+        "lab": "Laboratorio Interno",
+        "precision": "Mecanizado de Precisión",
+        "view_cert": "Ver Certificado IATF"
+    },
+    "history": {
+        "title": "Nuestro Legado",
+        "subtitle": "De orígenes humildes a socio global OEM.",
+        "steps": [
+            {
+                "year": "2024",
+                "title": "Auditoría Marelli Aprobada",
+                "desc": "Inicio del suministro de componentes a importantes fabricantes europeos."
+            },
+            {
+                "year": "2023",
+                "title": "Auditoría Hitachi Astemo Aprobada",
+                "desc": "Inicio del suministro de componentes a importantes fabricantes japoneses."
+            },
+            {
+                "year": "2017",
+                "title": "Auditoría BWI Aprobada",
+                "desc": "Inicio del suministro de componentes a importantes fabricantes europeos."
+            },
+            {
+                "year": "2016",
+                "title": "Traslado a Nueva Planta",
+                "desc": "Ampliación de instalaciones a 18.000 m² con tecnología punta de fabricación."
+            },
+            {
+                "year": "2016",
+                "title": "Certificado IATF 16949 Obtenido",
+                "desc": "Implementación de un sistema de gestión de calidad conforme a estándares internacionales."
+            },
+            {
+                "year": "2012",
+                "title": "Auditoría KYB Aprobada",
+                "desc": "Inicio del suministro de componentes a importantes fabricantes japoneses."
+            },
+            {
+                "year": "2007",
+                "title": "Auditoría Tenneco Aprobada",
+                "desc": "Firma de acuerdo a largo plazo para sistemas de suspensión adaptativa."
+            },
+            {
+                "year": "1994",
+                "title": "Fundación de la Empresa",
+                "desc": "Inicio como fabricante especializado de componentes en la provincia de Zhejiang."
+            }
+        ]
+    },
+    "contact": {
+        "label": "Póngase en Contacto",
+        "title": "¿Listo para discutir sus requisitos OEM?",
+        "desc": "Nuestro equipo de ingeniería está listo para ayudar con especificaciones técnicas, prototipos y cronogramas de producción masiva.",
+        "sales": "Departamento de Ventas",
+        "response": "Respuesta en 24 horas",
+        "factory": "Dirección de Fábrica",
+        "address_text": "Ningbo, Zhejiang, China",
+        "form_title": "Solicitar Presupuesto",
+        "security": "Sus datos están seguros. Cumplimos estrictos protocolos de NDA.",
+        "form": {
+            "name": "Nombre Completo",
+            "company": "Nombre de la Empresa",
+            "email": "Correo de Trabajo",
+            "message": "Detalles del Proyecto",
+            "submit": "Enviar Consulta"
+        }
+    },
+    "footer": {
+        "desc": "Fabricante líder de sistemas de suspensión. Dedicados a la calidad y precisión global desde 1994.",
+        "links": "Enlaces Rápidos",
+        "contact": "Contacto",
+        "rights": "Todos los derechos reservados."
+    }
+}
