@@ -3,7 +3,7 @@ name: Deploy to A2 Hosting
 on:
   push:
     branches:
-      - main # Or 'master', depending on your branch name
+      - master # Change this from 'main' to 'master'
 
 jobs:
   web-deploy:
