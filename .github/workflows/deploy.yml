@@ -14,15 +14,17 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4
 
-      # 2. Install Node.js
+      # 2. Setup Node.js (Updated to v20 for better stability)
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: "20"
 
-      # 3. Install dependencies and Build
+      # 3. Install dependencies and Build (THE FIX IS HERE)
       - name: 🔨 Build Project
         run: |
+          rm -f package-lock.json
+          rm -rf node_modules
           npm install
           npm run build
 
