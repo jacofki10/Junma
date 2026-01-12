@@ -25,7 +25,7 @@
           <!-- Image Area -->
          <div class="aspect-[4/4] w-full bg-slate-100 relative overflow-hidden">
     <div class="absolute inset-0 flex justify-center text-slate-300">
-      <img :src="`Junma/product_${n}.png`" :alt="`Product ${n}`" class="max-w-full max-h-full object-contain" />
+      <img :src="`/Junma/product_${n}.png`" :alt="`Product ${n}`" class="max-w-full max-h-full object-contain" />
     </div>
   </div>
 
