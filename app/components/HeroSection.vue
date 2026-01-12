@@ -14,8 +14,9 @@
           {{ $t('hero.subtitle') }}
         </p>
         <div class="mt-8 flex gap-4">
+
           <button class="bg-blue-700 px-8 py-3 text-white font-semibold hover:bg-blue-800 transition-colors">
-            {{ $t('hero.cta_catalog') }}
+            <a href="#products" class=" transition-colors">{{ $t('hero.cta_catalog') }}</a>
           </button>
         </div>
       </div>

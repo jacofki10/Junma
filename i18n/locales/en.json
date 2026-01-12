@@ -1,7 +1,6 @@
 {
     "brand": {
-        "first": "Ningbo Junma",
-        "second": "New Material Technology Co., Ltd"
+        "first": "Ningbo Junma New Material Technology Co., Ltd"
     },
     "nav": {
         "products": "Products",
@@ -14,13 +13,36 @@
         "title": "Precision Engineering for",
         "highlight": "Global Automotive",
         "subtitle": "OEM supplier for shock absorbers and suspension components. Trusted by industry leaders like Tenneco and Hitachi.",
-        "cta_catalog": "View Catalog"
+        "cta_catalog": "View Products"
     },
     "products": {
-        "badge": "Manufacturing Capabilities",
-        "title": "Engineered Suspension Systems",
-        "subtitle": "High-performance components manufactured to strict OEM tolerances.",
-        "btn_download": "Download Full Catalog (PDF)"
+        "badge": "Our Products",
+        "title": "Precision Engineering",
+        "subtitle": "High-performance components designed for durability and efficiency across all applications.",
+        "btn_download": "Download Catalog",
+        "volume": "Total volume",
+        "items": [
+            {
+                "name": "Piston",
+                "description": "Precision-machined piston with ring grooves for optimal sealing in hydraulic cylinders and shock absorbers.",
+                "volume": "32%"
+            },
+            {
+                "name": "Rod Guide",
+                "description": "Guiding component that ensures proper piston rod alignment and provides sealing interface in hydraulic systems.",
+                "volume": "19%"
+            },
+            {
+                "name": "Cylinder End (Base Valve)",
+                "description": "Multi-port valve assembly for precise fluid flow control and pressure regulation in hydraulic applications.",
+                "volume": "26%"
+            },
+            {
+                "name": "Support Washer",
+                "description": "Precision support disc with radial slots providing structural backing and load distribution in valve assemblies.",
+                "volume": "21%"
+            }
+        ]
     },
     "quality": {
         "badge": "Quality Control",
@@ -28,12 +50,14 @@
         "desc": "Our manufacturing process adheres to the strictest automotive standards.",
         "cert_text": "We are fully certified for automotive production. Our quality management system ensures continuous improvement.",
         "lab": "In-House Laboratory",
+        "lab_text": "Spectrometers, CMM, and fatigue testing equipment ensure material integrity.",
         "precision": "Precision Machining",
+        "precision_text": "Automated CNC machining with tolerances as tight as ±0.005mm.",
         "view_cert": "View IATF Certificate"
     },
     "history": {
         "title": "Our Legacy",
-        "subtitle": "From humble beginnings to a global OEM partner.",
+        "subtitle": "Ningbo Junma New Material Technology Co., Ltd., founded in 1990, is a member of the Powder Metallurgy Branch of the China General Machine Components Industry Association. Spanning 18,000 square meters with a total investment of over $20 million USD, we specialize in manufacturing powder metallurgy (PM) mechanical parts for automobiles, motorcycles, power tools, and home appliances. Over 40% of our products are exported to Europe, Asia, and the Americas, supported by a workforce of over 300 employees.",
         "steps": [
             {
                 "year": "2024",
@@ -71,7 +95,7 @@
                 "desc": "Signed long-term supply agreement for next-gen adaptive suspension systems."
             },
             {
-                "year": "1994",
+                "year": "1990",
                 "title": "Company Founded",
                 "desc": "Started as a specialized component manufacturer in Zhejiang Province."
             }
@@ -96,9 +120,10 @@
         }
     },
     "footer": {
-        "desc": "Leading manufacturer of automotive suspension systems. Dedicated to quality, precision, and global standards since 1994.",
+        "desc": "Leading manufacturer of automotive suspension systems. Dedicated to quality, precision, and global standards since 1990.",
         "links": "Quick Links",
         "contact": "Contact Us",
+        "certification": "Certifications",
         "rights": "All rights reserved."
     }
 }

@@ -40,7 +40,7 @@ function handleSubmit() {
               </div>
               <div>
                 <h3 class="font-semibold text-white">{{ $t('contact.sales') }}</h3>
-                <p class="text-slate-400">sales@factorycorp.com</p>
+                <p class="text-slate-400">xs@yhfmyj.com.cn</p>
                 <p class="text-xs text-slate-500 mt-1">{{ $t('contact.response') }}</p>
               </div>
             </div>

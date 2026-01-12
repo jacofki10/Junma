@@ -30,9 +30,6 @@ function onLanguageChange(event) {
   <span class="text-xl font-bold tracking-tight text-slate-900 hidden sm:block">
     <!-- First part (Black) -->
     {{ $t('brand.first') }}
-
-    <!-- Second part (Blue) -->
-    <span class="text-blue-700">{{ $t('brand.second') }}</span>
   </span>
 </a>
 </div>

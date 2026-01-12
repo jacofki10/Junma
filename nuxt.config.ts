@@ -1,4 +1,11 @@
 export default defineNuxtConfig({
+   app: {
+    // REPLACE 'repository-name' with the name of your GitHub repository
+    baseURL: '/Junma/',
+    buildAssetsDir: 'assets',
+  },
+  // This enables Static Site Generation (SSG)
+  ssr: true,
   // ... (keep your other settings)
   modules: [
     '@nuxtjs/tailwindcss',

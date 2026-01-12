@@ -8,7 +8,7 @@ const { tm, rt } = useI18n()
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
 
       <!-- Header -->
-      <div class="mx-auto max-w-2xl lg:text-center mb-16">
+      <div class="mx-auto max-w-6xl lg:text-center mb-16">
         <h2 class="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
           {{ $t('history.title') }}
         </h2>

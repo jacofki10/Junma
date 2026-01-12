@@ -47,14 +47,14 @@ const showCert = ref(false)
         <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100">
           <div class="text-4xl mb-4">🔬</div>
           <h3 class="text-lg font-bold text-slate-900">{{ $t('quality.lab') }}</h3>
-          <p class="mt-2 text-slate-600 text-sm">Spectrometers, CMM, and fatigue testing equipment ensure material integrity.</p>
+          <p class="mt-2 text-slate-600 text-sm">{{ $t('quality.lab_text') }}</p>
         </div>
 
         <!-- Card 3: Precision -->
         <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100">
           <div class="text-4xl mb-4">⚙️</div>
           <h3 class="text-lg font-bold text-slate-900">{{ $t('quality.precision') }}</h3>
-          <p class="mt-2 text-slate-600 text-sm">Automated CNC machining with tolerances as tight as ±0.005mm.</p>
+          <p class="mt-2 text-slate-600 text-sm">{{ $t('quality.precision_text') }}</p>
         </div>
 
       </div>

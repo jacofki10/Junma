@@ -1,7 +1,6 @@
 {
     "brand": {
-        "first": "Ningbo Junma",
-        "second": "New Material Technology Co., Ltd"
+        "first": "Ningbo Junma New Material Technology Co., Ltd"
     },
     "nav": {
         "products": "Productos",
@@ -14,13 +13,36 @@
         "title": "Ingeniería de Precisión para",
         "highlight": "Automotriz Global",
         "subtitle": "Proveedor OEM de amortiguadores y componentes de suspensión. Con la confianza de líderes como Tenneco y Hitachi.",
-        "cta_catalog": "Ver Catálogo"
+        "cta_catalog": "Ver Productos"
     },
     "products": {
-        "badge": "Capacidades de Fabricación",
-        "title": "Sistemas de Suspensión",
-        "subtitle": "Componentes de alto rendimiento fabricados con estrictas tolerancias OEM.",
-        "btn_download": "Descargar Catálogo (PDF)"
+        "badge": "Nuestros Productos",
+        "title": "Ingeniería de Precisión",
+        "subtitle": "Componentes de alto rendimiento diseñados para durabilidad y eficiencia en todas las aplicaciones.",
+        "btn_download": "Descargar Catálogo",
+        "volume": "Volumen total",
+        "items": [
+            {
+                "name": "Pistón",
+                "description": "Pistón mecanizado de precisión con ranuras para anillos, para un sellado óptimo en cilindros hidráulicos y amortiguadores.",
+                "volume": "32%"
+            },
+            {
+                "name": "Guía de Vástago",
+                "description": "Componente guía que asegura la alineación correcta del vástago del pistón y proporciona una interfaz de sellado en sistemas hidráulicos.",
+                "volume": "19%"
+            },
+            {
+                "name": "Válvula Base (Cylinder End)",
+                "description": "Conjunto de válvula multipuerto para un control preciso del flujo de fluidos y regulación de presión en aplicaciones hidráulicas.",
+                "volume": "26%"
+            },
+            {
+                "name": "Arandela de Soporte",
+                "description": "Disco de soporte de precisión con ranuras radiales que proporciona respaldo estructural y distribución de carga en conjuntos de válvulas.",
+                "volume": "21%"
+            }
+        ]
     },
     "quality": {
         "badge": "Control de Calidad",
@@ -28,12 +50,14 @@
         "desc": "Nuestro proceso de fabricación cumple con los estándares automotrices más estrictos.",
         "cert_text": "Estamos totalmente certificados para la producción automotriz. Nuestro sistema asegura la mejora continua.",
         "lab": "Laboratorio Interno",
+        "lab_text": "Espectrómetros, MMC y equipos de prueba de fatiga garantizan la integridad del material.",
         "precision": "Mecanizado de Precisión",
+        "precision_text": "Mecanizado CNC automatizado con tolerancias de hasta ±0.005mm.",
         "view_cert": "Ver Certificado IATF"
     },
     "history": {
         "title": "Nuestro Legado",
-        "subtitle": "De orígenes humildes a socio global OEM.",
+        "subtitle": "Ningbo Junma New Material Technology Co., Ltd., fundada en 1990, es miembro de la Rama de Pulvimetalurgia de la Asociación de la Industria de Componentes de Máquinas Generales de China. La empresa ocupa una superficie de 18.000 metros cuadrados y cuenta con una inversión total de más de 19 millones de euros. Nos especializamos en la producción de piezas mecánicas de pulvimetalurgia (PM) para automóviles, motocicletas, herramientas eléctricas y electrodomésticos. Más del 40% de nuestros productos se exportan a Europa, Asia y América, contando actualmente con una plantilla de más de 300 empleados.",
         "steps": [
             {
                 "year": "2024",
@@ -71,7 +95,7 @@
                 "desc": "Firma de acuerdo a largo plazo para sistemas de suspensión adaptativa."
             },
             {
-                "year": "1994",
+                "year": "1990",
                 "title": "Fundación de la Empresa",
                 "desc": "Inicio como fabricante especializado de componentes en la provincia de Zhejiang."
             }
@@ -96,9 +120,10 @@
         }
     },
     "footer": {
-        "desc": "Fabricante líder de sistemas de suspensión. Dedicados a la calidad y precisión global desde 1994.",
+        "desc": "Fabricante líder de sistemas de suspensión. Dedicados a la calidad y precisión global desde 1990.",
         "links": "Enlaces Rápidos",
         "contact": "Contacto",
+        "certification": "Certificaciones",
         "rights": "Todos los derechos reservados."
     }
 }
