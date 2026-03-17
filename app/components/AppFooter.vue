@@ -18,7 +18,7 @@ const showCert1 = ref(false)
           <div class="flex items-center gap-3 mb-6 text-white">
             <!-- Replaced the 'F' div with the Image -->
             <img
-              src="/logo.png"
+              src="/JUNMA_LOGO.webp"
               alt="Company Logo"
               class="h-8 w-auto object-contain bg-white rounded-sm p-0.5"
             />

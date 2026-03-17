@@ -19,9 +19,9 @@ function onLanguageChange(event) {
   class="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity"
 >
   <!-- 1. The Image -->
-  <!-- 'src="/logo.png"' looks inside the public folder automatically -->
+  <!-- 'src="/JUNMA_LOGO.webp"' looks inside the public folder automatically -->
   <img
-    src="/logo.png"
+    src="/JUNMA_LOGO.webp"
     alt="Company Logo"
     class="h-10 w-auto object-contain"
   />
