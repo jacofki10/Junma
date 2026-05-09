@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n"],
   i18n: {
     lazy: true,
-    langDir: "locales", // Keep this as you had it (Option 1)
+    langDir: "locales",
     strategy: "prefix_except_default",
     defaultLocale: "en",
     locales: [
@@ -35,5 +35,13 @@ export default defineNuxtConfig({
         name: "日本語",
       },
     ],
+    // Add this new section right here 👇
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root", // Only redirects when they visit the main domain '/'
+      alwaysRedirect: false,
+      fallbackLocale: "en",
+    },
   },
 });
