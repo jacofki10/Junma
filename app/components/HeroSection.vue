@@ -75,7 +75,7 @@
         <div class="video-wrapper">
           <!-- Assuming you are self-hosting the full video based on your path structure -->
           <video controls autoplay class="full-video">
-            <source :src="`/fullVideo480.mp4`" type="video/mp4" />
+            <source :src="`/PromoVideo.mp4`" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
