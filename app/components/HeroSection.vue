@@ -49,9 +49,9 @@
           loop
           muted
           playsinline
-          :poster="`/Junma/engine-poster.png`"
+          :poster="`/engine-poster.png`"
         >
-          <source :src="`/Junma/shortVideo.mp4`" type="video/mp4" />
+          <source :src="`/shortVideo.mp4`" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -75,7 +75,7 @@
         <div class="video-wrapper">
           <!-- Assuming you are self-hosting the full video based on your path structure -->
           <video controls autoplay class="full-video">
-            <source :src="`/Junma/fullVideo480.mp4`" type="video/mp4" />
+            <source :src="`/fullVideo480.mp4`" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
