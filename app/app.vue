@@ -7,10 +7,18 @@ import HistoryTimeline from "~/components/HistoryTimeline.vue";
 import ContactSection from "~/components/ContactSection.vue";
 import AppFooter from "~/components/AppFooter.vue";
 
+useSeoMeta({
+  title: "Ningbo Junma | Premium Manufacturing & Export",
+  description:
+    "High-quality manufacturing, CAD design, and export services based in Ningbo, China. Discover our history and product quality.",
+  ogTitle: "Ningbo Junma | Premium Manufacturing",
+  ogDescription: "High-quality manufacturing, CAD design, and export services.",
+  ogImage: "/JUNMA_LOGO.webp",
+});
+
 // <--- AUTO DETECT USER LANGUAGE
 import { onMounted } from "vue";
 const { setLocale } = useI18n();
-
 onMounted(() => {
   // 1. Get the user's browser language (e.g., 'zh-CN', 'en-US')
   const browserLang = navigator.language.toLowerCase();
