@@ -51,7 +51,7 @@
           playsinline
           :poster="`/engine-poster.png`"
         >
-          <source :src="`/shortVideo.mp4`" type="video/mp4" />
+          <source :src="`/promoVideoShortMute.mp4`" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
