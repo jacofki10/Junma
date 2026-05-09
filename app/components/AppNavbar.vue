@@ -1,11 +1,18 @@
 <script setup>
+import { computed } from "vue";
+
 const { locale, setLocale } = useI18n();
 
-// This function runs when you select a new option
-function onLanguageChange(event) {
-  const newLang = event.target.value;
-  setLocale(newLang); // This forces Nuxt to reload with the new language URL
-}
+// This creates a smart, two-way binding variable for the dropdown.
+// It automatically reads the current language AND safely changes it when clicked.
+const selectedLanguage = computed({
+  get() {
+    return locale.value;
+  },
+  set(newLang) {
+    setLocale(newLang);
+  },
+});
 </script>
 
 <template>
@@ -20,7 +27,6 @@ function onLanguageChange(event) {
           class="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity"
         >
           <!-- 1. The Image -->
-          <!-- 'src="/JUNMA_LOGO.webp"' looks inside the public folder automatically -->
           <img
             src="/JUNMA_LOGO.webp"
             alt="Company Logo"
@@ -31,7 +37,6 @@ function onLanguageChange(event) {
           <span
             class="text-xl font-bold tracking-tight text-slate-900 hidden sm:block"
           >
-            <!-- First part (Black) -->
             {{ $t("brand.first") }}
           </span>
         </a>
@@ -54,11 +59,10 @@ function onLanguageChange(event) {
 
       <!-- Right Side -->
       <div class="flex items-center gap-4">
-        <!-- FIXED: Language Dropdown -->
+        <!-- FIXED: Language Dropdown using v-model -->
         <div class="relative">
           <select
-            :value="locale"
-            @change="onLanguageChange"
+            v-model="selectedLanguage"
             class="appearance-none bg-transparent font-bold text-sm text-slate-600 hover:text-blue-700 cursor-pointer focus:outline-none pr-4"
           >
             <option value="en">English</option>
