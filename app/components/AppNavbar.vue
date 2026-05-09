@@ -59,23 +59,30 @@ const selectedLanguage = computed({
 
       <!-- Right Side -->
       <div class="flex items-center gap-4">
-        <!-- FIXED: Language Dropdown using v-model -->
-        <div class="relative">
-          <select
-            v-model="selectedLanguage"
-            class="appearance-none bg-transparent font-bold text-sm text-slate-600 hover:text-blue-700 cursor-pointer focus:outline-none pr-4"
-          >
-            <option value="en">English</option>
-            <option value="zh">中文</option>
-            <option value="ja">日本語</option>
-            <option value="es">Español</option>
-          </select>
-          <!-- Arrow Icon -->
-          <span
-            class="absolute right-0 top-1/2 -translate-y-1/2 text-xs text-slate-400 pointer-events-none"
-            >▼</span
-          >
-        </div>
+        <!-- FIXED: Wrapped in ClientOnly to prevent hydration glitches -->
+        <ClientOnly>
+          <div class="relative">
+            <select
+              v-model="selectedLanguage"
+              class="appearance-none bg-transparent font-bold text-sm text-slate-600 hover:text-blue-700 cursor-pointer focus:outline-none pr-4"
+            >
+              <option value="en">English</option>
+              <option value="zh">中文</option>
+              <option value="ja">日本語</option>
+              <option value="es">Español</option>
+            </select>
+            <!-- Arrow Icon -->
+            <span
+              class="absolute right-0 top-1/2 -translate-y-1/2 text-xs text-slate-400 pointer-events-none"
+              >▼</span
+            >
+          </div>
+
+          <!-- Optional: A tiny fallback while it loads for 1 millisecond -->
+          <template #fallback>
+            <div class="w-16 h-5 animate-pulse bg-slate-200 rounded"></div>
+          </template>
+        </ClientOnly>
 
         <a
           href="#contact"
