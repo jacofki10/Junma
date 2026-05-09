@@ -49,7 +49,7 @@
           loop
           muted
           playsinline
-          :poster="`/engine-poster.png`"
+          :poster="`/PromoVideoShortFrame.jpg`"
         >
           <source :src="`/promoVideoShortMute.mp4`" type="video/mp4" />
           Your browser does not support the video tag.
